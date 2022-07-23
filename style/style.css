@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    background-image: url(../img/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.lasha1{
+    width: 228px;
+    height: 70px;
+    background-color: #79B331;
+    padding: 24px 18px;
+    border-radius: 0 35px 0 35px;
+}
+.lasha1 a{
+    color: white;
+}
+.lasha2{
+    width: 126px;
+    height: 70px;
+    padding: 24px 18px;
+    border-radius: 0 35px 0 35px;
+    background-color: #C4C4C4;
+}
+.lasha2 a{
+    color: black;
+}
+.lasha2:hover{
+    background-color: #79B331;
+}
+.lasha3{
+    width: 72px;
+    height: 70px;
+    padding: 24px 18px;
+    border-radius: 0 35px 0 35px;
+    background-color: #C4C4C4;
+}
+.lasha3 a{
+    color: black;
+}
+.lasha3:hover{
+    background-color: #79B331;
+}
+ul{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 690px;
+}
+.martkutxedi{
+    width: 398px;
+    height: 164px;
+    margin: 110px auto;
+    margin-right: 270px;
+    /* border: 3px solid #DADADA; */
+    padding: 36px 40px;
+    position: relative;
+}
+.martkutxedi p{
+    font-size: 18px;
+}
+.martkutxedi .dro{
+    font-size: 36px;
+    padding-top: 20px;
+    padding-left: 44px;
+}
+.wre{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #79B331;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: wre 3s infinite;
+}
+@keyframes wre {
+    0%{top: 0; left: 0;}
+    25%{top: 0; left: 366px;}
+    50%{top: 132px; left: 366px;}
+    75%{top: 132px; left: 0;}
+    100%{top: 0; left: 0;}
+}
+.xe{
+    width: 1040px;
+    height: 500px;
+    /* background-color: aqua; */
+    margin-left: 430px;
+    margin-top: 180px;
+    position: relative;
+}
+.xe .gero{
+    width: 1px;
+    height: 500px;
+    background-color: #C4C4C4;
+    margin: 0 auto;
+}
+.lasha4{
+    width: 520px;
+    height: 70px;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+.lasha4 .fotoli{
+    width: 70px;
+    height: 70px;
+    border-radius: 0 35px 0 35px;
+    background-color: #C4C4C4;
+    margin-top: -56px;
+}
+.lasha4 p{
+    width: 380px;
+    margin-top: -56px;   
+}
+.lasha4:hover .fotoli{
+    background-color: #79B331;
+}
+.lasha4:hover p{
+   color: #79B331;
+}
+.lasha5{
+    width: 520px;
+    height: 70px;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 110px;
+    position: absolute;
+    top: 240px;
+    left: 0;
+}
+.lasha5 .fotoli1{
+    width: 70px;
+    height: 70px;
+    border-radius: 0 35px 0 35px;
+    background-color: #C4C4C4;  
+}
+.lasha5 p{
+    width: 350px;
+}
+.lasha5:hover .fotoli1{
+    background-color: #79B331;
+}
+.lasha5:hover p{
+   color: #79B331;
+}
+.lasha6{
+    width: 520px;
+    height: 70px;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 80px;
+    position: absolute;
+    top: 120px;
+    right: 0;
+}
+.lasha6 .fotoli2{
+    width: 70px;
+    height: 70px;
+    border-radius: 0 35px 0 35px;
+    background-color: #C4C4C4;
+    transform: rotate(0.75turn);
+}
+.lasha6 p{
+    width: 360px;
+}
+.lasha6:hover .fotoli2{
+    background-color: #79B331;
+}
+.lasha6:hover p{
+   color: #79B331;
+}
+.lasha7{
+    width: 520px;
+    height: 70px;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 80px;
+    position: absolute;
+    top: 360px;
+    right: 0;  
+}
+.lasha7 .fotoli3{
+    width: 70px;
+    height: 70px;
+    border-radius: 0 35px 0 35px;
+    background-color: #C4C4C4;
+    transform: rotate(0.75turn);
+}
+.lasha7 p{
+    width: 360px;
+}
+.lasha7:hover .fotoli3{
+     background-color: #79B331;
+}
+.lasha7:hover p{
+    color: #79B331;
+}
